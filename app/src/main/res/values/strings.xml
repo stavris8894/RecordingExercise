@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecordingExercise</string>
+    <string name="play_music">Play Music</string>
+    <string name="ok">OK</string>
+    <string name="write_permission_rationale">This application needs write permission to use this feature</string>
+    <string name="read_permission_rationale">This application needs read permission to use this feature</string>
+    <string name="record_permission_rationale">This application needs record audio permission to use this feature</string>
+
+</resources>

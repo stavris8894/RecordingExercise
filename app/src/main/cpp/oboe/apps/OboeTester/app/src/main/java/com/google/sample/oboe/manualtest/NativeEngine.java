@@ -1,0 +1,12 @@
+package oboe.apps.OboeTester.app.src.main.java.com.google.sample.oboe.manualtest;
+
+public class NativeEngine {
+
+    static native boolean isMMapSupported();
+
+    static native boolean isMMapExclusiveSupported();
+
+    static native void setWorkaroundsEnabled(boolean enabled);
+
+    static native boolean areWorkaroundsEnabled();
+}
