@@ -5,6 +5,8 @@ import android.view.View
 import androidx.databinding.Bindable
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import cy.com.recordingexercise.App
+import cy.com.recordingexercise.R
 import cy.com.recordingexercise.utils.ObservableViewModel
 import cy.com.recordingexercise.utils.RecordHelper
 import java.io.File
@@ -64,8 +66,8 @@ class RecordingViewModel(application: Application) : ObservableViewModel(applica
     @get:Bindable
     val username: String
         get() = when (isRecording) {
-            true -> "Stop Recording"
-            false -> "Start Recording"
+            true -> App.getString(R.string.stop_recording)
+            false -> App.getString(R.string.start_recording)
         }
 
     companion object {

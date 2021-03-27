@@ -118,7 +118,10 @@ class RecordingFragment :
         grantResults: IntArray
     ) {
         if (requestCode == REQUEST_RECORD_AND_WRITE_PERMISSION.toInt()) {
-            if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+            if ((grantResults.isNotEmpty()
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED)
+            ) {
                 mRecordingViewModel.startRecord()
             }
         }

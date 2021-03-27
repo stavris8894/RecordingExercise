@@ -5,5 +5,7 @@
     <string name="write_permission_rationale">This application needs write permission to use this feature</string>
     <string name="read_permission_rationale">This application needs read permission to use this feature</string>
     <string name="record_permission_rationale">This application needs record audio permission to use this feature</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_recording">Start Recording</string>
 
 </resources>
