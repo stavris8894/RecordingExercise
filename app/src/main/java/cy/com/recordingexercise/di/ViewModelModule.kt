@@ -1,4 +1,4 @@
-package cy.com.recordingexercise.id
+package cy.com.recordingexercise.di
 
 import cy.com.recordingexercise.ui.viewModel.RecordingViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel

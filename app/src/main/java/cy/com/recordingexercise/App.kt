@@ -2,7 +2,7 @@ package cy.com.recordingexercise
 
 import android.app.Application
 import androidx.annotation.StringRes
-import cy.com.recordingexercise.id.viewModelModule
+import cy.com.recordingexercise.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import java.util.*
